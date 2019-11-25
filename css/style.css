@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=ABeeZee|Philosopher&display=swap");
+@import url("component/container.css");
+@import url("component/button.css");
+@import url("component/avatar.css");
+@import url("component/banner.css");
+@import url("component/card.css");
+
+
+
+
+body {
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+}
+h1, h2, h3 {
+	font-family: 'Philosopher', sans-serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 150px;
+}
+
+
+.sidebar {
+  position: fixed;
+  width: 300px;
+  height: 700px;
+  left: 0;
+  top: 800;
+  bottom: 0;
+  padding: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+}
+
+
+.sidebar ul {
+  list-style: square;
+  padding-left: 0px;
+  color: white;
+}
+
